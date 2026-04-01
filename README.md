@@ -1,6 +1,6 @@
 # Celso Arpuí
 
-## <a href="www.celsoarpui.com" title="joiner icons">celsoarpui.com</a>
+## <a href="https://www.celsoarpui.com">celsoarpui.com</a>
 
 ### Credits
 

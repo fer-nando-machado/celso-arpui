@@ -135,8 +135,8 @@ body {
   background-color: white;
   background-image: url("android-chrome-192x192.png");
   background-repeat: no-repeat;
-  background-position: 98% 100%;
-  background-size: 98px;
+  background-position: 98% 99%;
+  background-size: 92px;
   border-radius: 32px;
   padding: 1.8rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);

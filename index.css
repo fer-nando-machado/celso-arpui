@@ -9,7 +9,7 @@ body {
   background-color: white;
   color: #2c2b28;
   scroll-behavior: smooth;
-  background-image: url("./front.png");
+  background-image: url("./front.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -133,7 +133,7 @@ body {
   max-width: 1200px;
   margin: 2rem auto;
   background-color: white;
-  background-image: url("android-chrome-192x192.png");
+  background-image: url("./android-chrome-192x192.png");
   background-repeat: no-repeat;
   background-position: 98% 98%;
   background-size: 110px;

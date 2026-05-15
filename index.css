@@ -6,12 +6,13 @@
 }
 
 body {
-  background-color: white;
+  background-color: #1e2a1c;
   color: #2c2b28;
   scroll-behavior: smooth;
   background-image: url("./front.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* HEADER FIXO */
@@ -53,7 +54,6 @@ body {
   padding: 10px 20px;
   border-radius: 40px;
   transition: background 0.2s, transform 0.1s;
-  font-size: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -230,13 +230,17 @@ footer {
     gap: 12px;
   }
   .main-content {
-    padding-top: 170px;
+    padding-top: 165px;
   }
   .produtos-grid {
     grid-template-columns: 1fr;
   }
   .card-produto h3 {
     font-size: 1.3rem;
+  }
+  .card-produto:hover {
+    transform: none;
+    box-shadow: 0;
   }
   .footer-container {
     flex-direction: column;

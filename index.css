@@ -40,6 +40,7 @@ body {
   font-size: 2rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .empresa-nome p {

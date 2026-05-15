@@ -15,7 +15,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* HEADER FIXO */
 .header-fixo {
   position: fixed;
   top: 0;
@@ -33,9 +32,10 @@ body {
 }
 
 .empresa-nome h1 {
-  font-size: 1.6rem;
-  font-weight: 900;
-  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  font-family: "Skranji", system-ui;
+  text-transform: uppercase;
 }
 .empresa-nome p {
   font-size: 0.9rem;
@@ -62,12 +62,11 @@ body {
   transform: scale(1.02);
 }
 
-/* espaço para compensar o header fixo */
 .main-content {
   padding-top: 100px;
+  /* fixed header compensation */
 }
 
-/* SEÇÃO DE PRODUTOS  */
 .produtos-section {
   max-width: 1300px;
   margin: 2rem auto;
@@ -116,6 +115,7 @@ body {
 .card-produto img {
   height: 200px;
   width: 100%;
+  border-radius: 16px;
 }
 
 .card-produto h3 {
@@ -230,7 +230,7 @@ footer {
     gap: 12px;
   }
   .main-content {
-    padding-top: 165px;
+    padding-top: 170px;
   }
   .produtos-grid {
     grid-template-columns: 1fr;
